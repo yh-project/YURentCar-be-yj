@@ -43,7 +43,7 @@ jobs:
         username: ${{ secrets.SERVER_USERNAME }}
         password: ${{ secrets.SERVER_PASSWORD }}
         port: ${{ secrets.SERVER_PORT }}
-        source: "*.jar"
+        source: "YUrentcar-0.0.1-SNAPSHOT.jar"
         target: "/Users/samsung/develop/yurentcar-be-web"
 
   execute:
